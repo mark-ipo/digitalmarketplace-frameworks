@@ -1,0 +1,19 @@
+name: Question and answer session details
+question: Question and answer session details
+question_advice: |
+  You must post all questions and answers from the session so suppliers that attend don’t have an unfair advantage over suppliers that don’t.
+
+optional: true
+type: multiquestion
+depends:
+  - "on": "lot"
+    being:
+      - digital-outcomes
+      - digital-specialists
+      - user-research-participants
+questions:
+  - questionAndAnswerSessionDate
+  - questionAndAnswerSessionTime
+  - questionAndAnswerSessionDetails
+
+empty_message: Describe question and answer session

@@ -1,11 +1,11 @@
-name: Question and answer session details
-question: Question and answer session details
+name: Details
+question: Details
 question_advice: |
+  Your question and answer session details will only be available to eligible suppliers who have logged in.
 
   You must include:
 
   - the type of session you want to run, eg webinar, phone conference or meeting
-  - the date and time of the session (this should happen within 1 week of publishing your requirements)
 
   Depending on the type of session you choose, you could also include:
 
@@ -16,11 +16,7 @@ question_advice: |
   - the address (including postcode)
   - anything else needed to take part
 
-  This information will only be available to eligible suppliers who have logged in.
-
-  You must post all questions and answers on the Digital Marketplace so all suppliers can see them.
-
-optional: true
+optional: false
 type: textbox_large
 max_length_in_words: 100
 depends:

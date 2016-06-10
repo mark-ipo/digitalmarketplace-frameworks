@@ -1,0 +1,22 @@
+name: Date
+question: Date
+optional: false
+question_advice: |
+  The session should happen within 1 week of publishing your requirements.
+hint: 'eg 31/12/2016'
+type: number
+max_length_in_words: 100
+depends:
+  - "on": "lot"
+    being:
+      - digital-outcomes
+      - digital-specialists
+      - user-research-participants
+validations:
+  -
+    name: answer_required
+    message: 'You need to answer this question.'
+  -
+    name: under_100_words
+    message: 'Your question and answer session details must be no more than 100 words.'
+empty_message: Add details
