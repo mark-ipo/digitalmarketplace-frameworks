@@ -1,0 +1,19 @@
+Forms
+#####
+
+  LoginForm
+    field: Email address
+      required: 'Email cannot be empty'
+      valid:    'Please enter a valid email address'
+    field: Password
+      required: 'Please enter your password'
+
+  EmailAddressForm
+    field: Email address
+      required: "Email can not be empty"
+      valid:    "Please enter a valid email address"
+
+  MoveUserForm
+    field: Move an existing user to this supplier
+      required: "Email can not be empty"
+      valid:    "Please enter a valid email address"

@@ -1,0 +1,2901 @@
+"hint": >-
+  eg 31/12/2016
+"name": >-
+  Date the supplier can start work
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/brief-responses/availabilityOutcomes.yml
+"question": >-
+  When can the supplier start work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your availability date must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  eg 31/12/2016
+"name": >-
+  Date the specialist can start work
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/brief-responses/availabilitySpecialists.yml
+"question": >-
+  When can the specialist start work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your availability date must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  Enter a number, not a range.
+"name": >-
+  Day rate
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/brief-responses/dayRate.yml
+"question": >-
+  What’s the specialist’s day rate?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    dayRate
+  "message": >-
+    Day rate must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    dayRate
+  "message": >-
+    This can't be more than the maximum day rate you've already provided.
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Essential requirements
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/brief-responses/essentialRequirements.yml
+"question": >-
+  Do you have the essential skills and experience?
+"validations":
+- "message": >-
+    You need to answer all the essential requirement questions.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Nice-to-have requirements
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/brief-responses/niceToHaveRequirements.yml
+"question": >-
+  Do you have any of the nice-to-have skills and experience?
+"validations":
+- "message": >-
+    You need to answer all the nice-to-have requirement questions.
+  "name": >-
+    answer_required
+
+"hint": >-
+  All communication about your application will be sent to this address.
+"name": >-
+  Email address
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/brief-responses/respondToEmailAddress.yml
+"question": >-
+  Email address the buyer should use to contact you
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    You must enter a valid email address.
+  "name": >-
+    invalid_format
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Access restrictions at location
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/accessRestrictions.yml
+"question": >-
+  Access restrictions at location
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Additional terms and conditions
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/additionalTerms.yml
+"question": >-
+  Additional terms and conditions
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Why the work is being done
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/backgroundInformation.yml
+"question": >-
+  Why the work is being done
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Budget range
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/budgetRangeOutcomesParticipants.yml
+"question": >-
+  Budget range
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Maximum day rate
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/budgetRangeSpecialists.yml
+"question": >-
+  Maximum day rate
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Expected contract length
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/contractLength.yml
+"question": >-
+  Expected contract length
+"validations":
+- "message": >-
+    Your answer must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Cultural fit criteria
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/culturalFitCriteriaOutcomes.yml
+"question": >-
+  Cultural fit criteria
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Cultural fit criteria
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/culturalFitCriteriaSpecialists.yml
+"question": >-
+  Cultural fit criteria
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  This can be between 5% and 20%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/culturalWeightingOutcomes.yml
+"question": >-
+  Cultural fit
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 5 and 20.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  This can be between 10% and 70%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/culturalWeightingParticipants.yml
+"question": >-
+  Availability
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 10 and 70.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  This can be between 5% and 20%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/culturalWeightingSpecialists.yml
+"question": >-
+  Cultural fit
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 5 and 20.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Early market engagement
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/earlyMarketEngagement.yml
+"question": >-
+  Early market engagement
+"validations":
+- "message": >-
+    Your answer must be no more than 200 words.
+  "name": >-
+    under_200_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Who the users are and what they need to do
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/endUsers.yml
+"question": >-
+  Who the users are and what they need to do
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Essential skills and experience
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/essentialRequirementsOutcomes.yml
+"question": >-
+  Essential skills and experience
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Essential skills and experience
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/essentialRequirementsParticipants.yml
+"question": >-
+  Essential skills and experience
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Essential skills and experience
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/essentialRequirementsSpecialists.yml
+"question": >-
+  Essential skills and experience
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Assessment methods
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/evaluationTypeOutcomes.yml
+"question": >-
+  How you’ll assess suppliers
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Assessment methods
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/evaluationTypeParticipants.yml
+"question": >-
+  How you’ll assess suppliers
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Assessment methods
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/evaluationTypeSpecialists.yml
+"question": >-
+  How you’ll assess specialists
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Existing team
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/existingTeamOutcomes.yml
+"question": >-
+  Existing team
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Who the specialist will work with
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/existingTeamSpecialists.yml
+"question": >-
+  Who the specialist will work with
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Region
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/locationOutcomes.yml
+"question": >-
+  Where you want the supplier to work
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Region
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/locationParticipants.yml
+"question": >-
+  Where the research will take place
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Region
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/locationSpecialists.yml
+"question": >-
+  Where you want the specialist to work
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Nice-to-have skills and experience
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/niceToHaveRequirementsOutcomes.yml
+"question": >-
+  Nice-to-have skills and experience
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Nice-to-have skills and experience
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/niceToHaveRequirementsParticipants.yml
+"question": >-
+  Nice-to-have skills and experience
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Nice-to-have skills and experience
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/niceToHaveRequirementsSpecialists.yml
+"question": >-
+  Nice-to-have skills and experience
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Maximum number of suppliers that will be evaluated
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/numberOfSuppliersOutcomes.yml
+"question": >-
+  Maximum number of suppliers you’ll evaluate
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    You must evaluate at least 3, and no more than 15, suppliers.
+  "name": >-
+    not_a_number
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Maximum number of suppliers that will be evaluated
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/numberOfSuppliersParticipants.yml
+"question": >-
+  Maximum number of suppliers you’ll evaluate
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    You must evaluate at least 3, and no more than 15, suppliers.
+  "name": >-
+    not_a_number
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Maximum number of specialists that will be evaluated
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/numberOfSuppliersSpecialists.yml
+"question": >-
+  Maximum number of specialists you’ll evaluate
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    You must evaluate at least 3, and no more than 15, specialists.
+  "name": >-
+    not_a_number
+
+"hint": >-
+  100 characters maximum
+"name": >-
+  Organisation the work is for
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/organisation.yml
+"question": >-
+  Organisation the work is for
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your organisation name must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Problem to be solved
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/outcome.yml
+"question": >-
+  Problem to be solved
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Assisted digital and accessibility requirements
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/participantAccessibilityNeeds.yml
+"question": >-
+  Assisted digital and accessibility requirements
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Description of your participants
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/participantSpecification.yml
+"question": >-
+  Description of your participants
+"validations":
+- "message": >-
+    Your answer must be no more than 200 words.
+  "name": >-
+    under_200_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Number of participants per round
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/participantsPerRound.yml
+"question": >-
+  Number of participants per round
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Payment approach
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/priceCriteria.yml
+"question": >-
+  Payment approach
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  This can be between 20% and 85%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/priceWeightingOutcomes.yml
+"question": >-
+  Price
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 20 and 85.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  This can be between 20% and 80%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/priceWeightingParticipants.yml
+"question": >-
+  Price
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 20 and 80.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  This can be between 20% and 85%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/priceWeightingSpecialists.yml
+"question": >-
+  Price
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 20 and 85.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Question and answer session details
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/questionAndAnswerSessionDetails.yml
+"question": >-
+  Question and answer session details
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your question and answer session details must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Research location
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/researchAddress.yml
+"question": >-
+  Specific place where the research will happen
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Research dates
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/researchDates.yml
+"question": >-
+  Research dates
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  How often research will happen
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/researchFrequency.yml
+"question": >-
+  How often research will happen
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Research plan
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/researchPlan.yml
+"question": >-
+  Research plan
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Number of research rounds
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/researchRounds.yml
+"question": >-
+  Number of research rounds
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Security clearance
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/securityClearance.yml
+"question": >-
+  Security clearance
+"validations":
+- "message": >-
+    Your answer must be no more than 50 words.
+  "name": >-
+    under_50_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Specialist role
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/specialistRole.yml
+"question": >-
+  Type of specialist you need
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  What the specialist will work on
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/specialistWork.yml
+"question": >-
+  What the specialist will work on
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  eg 31/12/2016
+"name": >-
+  Latest start date
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/startDate.yml
+"question": >-
+  Latest start date
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your start date must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Proposal criteria
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/successCriteriaOutcomes.yml
+"question": >-
+  Proposal criteria
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Proposal criteria
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/successCriteriaParticipants.yml
+"question": >-
+  Proposal criteria
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Criteria must be no more than 30 words.
+  "name": >-
+    under_30_words
+- "message": >-
+    You must have 20 or fewer criteria.
+  "name": >-
+    max_items_limit
+- "message": >-
+    Criteria must be no more than 300 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Summary of the work
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/summary.yml
+"question": >-
+  Summary
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 50 words.
+  "name": >-
+    under_50_words
+
+"hint": >-
+  This can be between 10% and 75%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/technicalWeightingOutcomes.yml
+"question": >-
+  Technical competence
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 10 and 75.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  This can be between 10% and 70%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/technicalWeightingParticipants.yml
+"question": >-
+  Technical competence
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 10 and 70.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  This can be between 10% and 75%
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/technicalWeightingSpecialists.yml
+"question": >-
+  Technical competence
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Weighting must be a number between 10 and 75.
+  "name": >-
+    not_a_number
+- "message": >-
+    Total must add up to 100%.
+  "name": >-
+    total_should_be_100
+
+"hint": >-
+  100 characters maximum
+"name": >-
+  Title
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/titleOutcomesParticipants.yml
+"question": >-
+  What you want to call your requirements
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your title must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  100 characters maximum
+"name": >-
+  Title
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/titleSpecialists.yml
+"question": >-
+  What you want to call your requirements
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your title must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Any work that’s already been done
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/workAlreadyDone.yml
+"question": >-
+  Any work that’s already been done
+"validations":
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Working arrangements
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/workingArrangements.yml
+"question": >-
+  Working arrangements
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Address where the work will take place
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/briefs/workplaceAddress.yml
+"question": >-
+  Address where the work will take place
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Your answer
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/clarification_question/answer.yml
+"question": >-
+  Your answer
+"validations":
+- "message": >-
+    You must enter an answer.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Supplier question
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/clarification_question/question.yml
+"question": >-
+  Supplier question
+"validations":
+- "message": >-
+    You must enter a question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your question must be no more than 100 words.
+  "name": >-
+    under_100_words
+
+"hint": >-
+  Check that your organisation complies with [Schedule 5, Regulation 58(5)](http://www.legislation.gov.uk/uksi/2015/102/regulation/58/made)
+  of the Public Contracts Regulations 2015.
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/appropriateTradeRegisters.yml
+"question": >-
+  If your business was not established in the UK, is it registered with the appropriate
+  professional or trade register(s) in the EU member state where it’s established?
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘no’ to [[establishedInTheUK]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/appropriateTradeRegistersNumber.yml
+"question": >-
+  If you answered ‘yes’ to question [[appropriateTradeRegisters]], please provide
+  details including your organisation’s registration number.
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘yes’ to [[appropriateTradeRegisters]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/licenceOrMemberRequired.yml
+"question": >
+  Please confirm if, to provide the services specified in this procurement, it’s a
+  legal requirement in the state where you’re established to be:
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘no’ to [[establishedInTheUK]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/licenceOrMemberRequiredDetails.yml
+"question": >-
+  If you answered ‘licensed’ or ‘a member of a relevant organisation’ in [[licenceOrMemberRequired]],
+  please give details of the state's requirements and confirm whether you've met them.
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘licensed’ or ‘a member
+    of a relevant organisation’ in [[licenceOrMemberRequired]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/mitigatingFactors.yml
+"question": >-
+  If you responded ‘yes’ to any of the questions [[taxEvasion]] to [[misleadingInformation]],
+  please provide details of any mitigating factors that you think should be taken
+  into consideration.
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘yes’ to one of questions
+    [[taxEvasion]] to [[misleadingInformation]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/mitigatingFactors2.yml
+"question": >-
+  If you responded ‘yes’ to either question [[unspentTaxConvictions]] or question
+  [[GAAR]], please provide details of any mitigating factors that you think should
+  be taken into consideration.
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘yes’ to either [[unspentTaxConvictions]]
+    or [[GAAR]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/declaration/tradingStatusOther.yml
+"question": >-
+  Describe your trading status if you answered ‘other’ to [[tradingStatus]].
+"validations":
+- "message": >-
+    You need to answer this question because you answered ‘other’ to [[tradingStatus]].
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/agileCoachDayRate.yml
+"question": >-
+  How much do you charge per day for an agile coach?
+"validations":
+- "field": >-
+    agileCoachPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    agileCoachPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    agileCoachPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    agileCoachPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    agileCoachPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/agileCoachLocations.yml
+"question": >-
+  Where will your agile coach work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Provide discreet recruitment
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/anonymousRecruitment.yml
+"question": >-
+  Can you, if asked, recruit participants without revealing details of the organisation
+  you're recruiting for?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Share systems information
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/bespokeSystemInformation.yml
+"question": >-
+  Will you share bespoke system information from the service you’re working on, eg
+  software performance data, to help the government continuously improve its services?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/businessAnalystDayRate.yml
+"question": >-
+  How much do you charge per day for a business analyst?
+"validations":
+- "field": >-
+    businessAnalystPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    businessAnalystPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    businessAnalystPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    businessAnalystPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    businessAnalystPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/businessAnalystLocations.yml
+"question": >-
+  Where will your business analyst work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/communicationsManagerDayRate.yml
+"question": >-
+  How much do you charge per day for a communications manager?
+"validations":
+- "field": >-
+    communicationsManagerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    communicationsManagerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    communicationsManagerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    communicationsManagerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    communicationsManagerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/communicationsManagerLocations.yml
+"question": >-
+  Where will your communications manager work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/contentDesignerDayRate.yml
+"question": >-
+  How much do you charge per day for a content designer?
+"validations":
+- "field": >-
+    contentDesignerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    contentDesignerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    contentDesignerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    contentDesignerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    contentDesignerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/contentDesignerLocations.yml
+"question": >-
+  Where will your content designer work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Standard data protocols
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/dataProtocols.yml
+"question": >-
+  Will you use standard, accessible data protocols to ensure interoperability across
+  government services?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/deliveryManagerDayRate.yml
+"question": >-
+  How much do you charge per day for a delivery manager?
+"validations":
+- "field": >-
+    deliveryManagerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    deliveryManagerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    deliveryManagerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    deliveryManagerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    deliveryManagerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/deliveryManagerLocations.yml
+"question": >-
+  Where will your delivery manager work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/deliveryTypes.yml
+"question": >-
+  What types of service delivery can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/designerDayRate.yml
+"question": >-
+  How much do you charge per day for a designer?
+"validations":
+- "field": >-
+    designerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    designerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    designerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    designerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    designerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/designerLocations.yml
+"question": >-
+  Where will your designer work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/developerDayRate.yml
+"question": >-
+  How much do you charge per day for a developer?
+"validations":
+- "field": >-
+    developerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    developerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    developerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    developerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    developerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/developerLocations.yml
+"question": >-
+  Where will your developer work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Share non-personal data
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/helpGovernmentImproveServices.yml
+"question": >-
+  Will you share non-personal user and service data to help the government continuously
+  improve its services?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  How accessible is your studio?
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labAccessibility.yml
+"question": >
+  How accessible is your studio?
+
+  Describe the ways in which your lab is accessible or inaccessible, eg wheelchair
+  access or hearing loops provided.
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your description must be no more than 50 words.
+  "name": >-
+    under_50_words
+- "message": >-
+    Your description must be no more than 500 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labAddressBuilding.yml
+"question": >-
+  Building and street
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 20 words.
+  "name": >-
+    under_20_words
+- "message": >-
+    Your answer must be no more than 200 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labAddressPostcode.yml
+"question": >-
+  Postcode
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than than 10 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labAddressTown.yml
+"question": >-
+  Town or city
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 20 words.
+  "name": >-
+    under_20_words
+- "message": >-
+    Your answer must be no more than 200 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labBabyChanging.yml
+"question": >-
+  Do you provide baby-changing facilities?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labCarPark.yml
+"question": >-
+  Where can visitors to your studio park?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your description must be no more than 50 words.
+  "name": >-
+    under_50_words
+- "message": >-
+    Your description must be no more than 500 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labDesktopStreaming.yml
+"question": >-
+  Do you stream a view of the desktop or laptop screen?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labDeviceStreaming.yml
+"question": >-
+  Do you stream a view of a mobile or tablet device?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labEyeTracking.yml
+"question": >-
+  Do you provide eye-tracking?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labHosting.yml
+"question": >-
+  Do you welcome and host participants?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labPrice.yml
+"question": >-
+  What is the minimum amount of time your lab can be booked for and how much does
+  it cost?
+"validations":
+- "field": >-
+    labTimeMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    labPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    labPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labPublicTransport.yml
+"question": >-
+  How do visitors get to your studio using public transport?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your description must be no more than 50 words.
+  "name": >-
+    under_50_words
+- "message": >-
+    Your description must be no more than 500 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  How many people can the lab accommodate?
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labSize.yml
+"question": >
+  How many people can the lab accommodate?
+
+  This is the total number of people including participants and researchers.
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your answer must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labStreaming.yml
+"question": >-
+  Do you provide remote streaming from the lab?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labTechAssistance.yml
+"question": >-
+  Do you provide help with studio equipment and streaming?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labToilets.yml
+"question": >-
+  Do you provide toilets?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labViewingArea.yml
+"question": >-
+  Do you have a viewing area?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labWaitingArea.yml
+"question": >-
+  Do you provide a waiting area?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/labWiFi.yml
+"question": >-
+  Do you provide Wi-Fi?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Manage incentives
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/manageIncentives.yml
+"question": >-
+  Do you agree to manage any incentives to user research participants?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  Use of open standards
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/openStandardsPrinciples.yml
+"question": >
+  Will you work according to the government's [Open Standards Principles](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles)
+  and use the [open standards selected for use across government](http://standards.data.gov.uk/challenges/adopted)?
+
+
+  This includes publishing any software you build for the government under the appropriate
+  open source licence.
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  Where can you work on digital outcomes?
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/outcomesLocations.yml
+"question": >
+  Where can you work on digital outcomes?
+
+
+  You’ll receive notifications for briefs in regions where you can provide services.
+
+
+  You can update the regions where you can provide services when the framework is
+  live.
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalysisTypes.yml
+"question": >-
+  What types of performance analysis can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalystDayRate.yml
+"question": >-
+  How much do you charge per day for a performance analyst?
+"validations":
+- "field": >-
+    performanceAnalystPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    performanceAnalystPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    performanceAnalystPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    performanceAnalystPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    performanceAnalystPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalystLocations.yml
+"question": >-
+  Where will your performance analyst work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/portfolioManagerDayRate.yml
+"question": >-
+  How much do you charge per day for a portfolio manager?
+"validations":
+- "field": >-
+    portfolioManagerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    portfolioManagerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    portfolioManagerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    portfolioManagerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    portfolioManagerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/portfolioManagerLocations.yml
+"question": >-
+  Where will your portfolio manager work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/productManagerDayRate.yml
+"question": >-
+  How much do you charge per day for a product manager?
+"validations":
+- "field": >-
+    productManagerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    productManagerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    productManagerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    productManagerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    productManagerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/productManagerLocations.yml
+"question": >-
+  Where will your product manager work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/programmeManagerDayRate.yml
+"question": >-
+  How much do you charge per day for a programme manager?
+"validations":
+- "field": >-
+    programmeManagerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    programmeManagerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    programmeManagerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    programmeManagerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    programmeManagerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/programmeManagerLocations.yml
+"question": >-
+  Where will your programme manager work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/qualityAssuranceDayRate.yml
+"question": >-
+  How much do you charge per day for a quality assurance analyst?
+"validations":
+- "field": >-
+    qualityAssurancePriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    qualityAssurancePriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    qualityAssurancePriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    qualityAssurancePriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    qualityAssurancePriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/qualityAssuranceLocations.yml
+"question": >-
+  Where will your quality assurance analyst work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/recruitFromList.yml
+"question": >-
+  Are you willing to recruit participants based on a list provided to you by the buyer?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/recruitMethods.yml
+"question": >-
+  How do you recruit participants?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/securityConsultantDayRate.yml
+"question": >-
+  How much do you charge per day for a cyber security consultant?
+"validations":
+- "field": >-
+    securityConsultantPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    securityConsultantPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    securityConsultantPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    securityConsultantPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    securityConsultantPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/securityConsultantLocations.yml
+"question": >-
+  Where will your cyber security consultant work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/securityTypes.yml
+"question": >-
+  What types of security can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/serviceManagerDayRate.yml
+"question": >-
+  How much do you charge per day for a service manager?
+"validations":
+- "field": >-
+    serviceManagerPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    serviceManagerPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    serviceManagerPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    serviceManagerPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    serviceManagerPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/serviceManagerLocations.yml
+"question": >-
+  Where will your service manager work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  What is the name of the lab?
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/serviceName.yml
+"question": >
+  What is the name of the lab?
+
+
+  Provide the name of the room where participants and researchers carry out testing.
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "message": >-
+    Your studio name must be no more than 100 characters.
+  "name": >-
+    under_character_limit
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/softwareDevelopmentTypes.yml
+"question": >-
+  What types of software development can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/supportAndOperationsTypes.yml
+"question": >-
+  What types of support and operations can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/technicalArchitectDayRate.yml
+"question": >-
+  How much do you charge per day for a technical architect?
+"validations":
+- "field": >-
+    technicalArchitectPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    technicalArchitectPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    technicalArchitectPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    technicalArchitectPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    technicalArchitectPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/technicalArchitectLocations.yml
+"question": >-
+  Where will your technical architect work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/testingAndAuditingTypes.yml
+"question": >-
+  What types of testing and auditing can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/userExperienceAndDesignTypes.yml
+"question": >-
+  What types of user experience and design can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/userResearcherDayRate.yml
+"question": >-
+  How much do you charge per day for a user researcher?
+"validations":
+- "field": >-
+    userResearcherPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    userResearcherPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    userResearcherPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    userResearcherPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    userResearcherPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/userResearcherLocations.yml
+"question": >-
+  Where will your user researcher work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/userResearchTypes.yml
+"question": >-
+  What types of user research can you provide?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+
+"hint": >-
+  **DOES NOT EXIST**
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/webOperationsDayRate.yml
+"question": >-
+  How much do you charge per day for a web operations engineer?
+"validations":
+- "field": >-
+    webOperationsPriceMin
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    webOperationsPriceMin
+  "message": >-
+    Minimum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    webOperationsPriceMax
+  "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+- "field": >-
+    webOperationsPriceMax
+  "message": >-
+    Maximum price must be a number, without units, eg 99.95
+  "name": >-
+    not_money_format
+- "field": >-
+    webOperationsPriceMax
+  "message": >-
+    Minimum price must be less than maximum price
+  "name": >-
+    max_less_than_min
+
+"hint": >-
+  [View regions (PDF, 262KB)](https://geoportal.statistics.gov.uk/Docs/Maps/Regions_(Eng)_2011_map.pdf)
+"name": >-
+  **DOES NOT EXIST**
+"path": >-
+  /frameworks/digital-outcomes-and-specialists/questions/services/webOperationsLocations.yml
+"question": >-
+  Where will your web operations engineer work?
+"validations":
+- "message": >-
+    You need to answer this question.
+  "name": >-
+    answer_required
+

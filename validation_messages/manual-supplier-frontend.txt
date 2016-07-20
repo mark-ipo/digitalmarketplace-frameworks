@@ -1,0 +1,76 @@
+Auth forms
+##########
+
+  LoginForm
+    field: Email address
+      required: "Email address must be provided"
+      valid:     "Please enter a valid email address"
+    field: Password
+      required: "Please enter your password"
+
+  EmailAddressForm
+    field: Email address
+      required: "Email address must be provided"
+      valid:    "Please enter a valid email address"
+
+  ChangePasswordForm
+    field:  Password
+      required: "Please enter a new password"
+      length:   "Passwords must be between 10 and 50 characters"
+    field:  Confirm password
+      required: "Please confirm your new password"
+      equal:    "The passwords you entered do not match"
+
+  CreateUserForm
+    field: Your name
+      required: "Please enter a name"
+      length:   "Names must be between 1 and 255 characters"
+    field: Password
+      required: "Please enter a password"
+      length:   "Passwords must be between 10 and 50 characters"
+
+Suppliers
+#########
+
+  EditSupplierForm
+    field:  Supplier summary
+      length: 'Your summary must not be more than 50 words'
+    field: Clients
+      number: 'You must have 10 or fewer clients'
+
+  EditContactInformationForm
+    field: Email address
+      required: "You must provide an email address"
+      valid:    "Please enter a valid email address"
+    field: Contact name
+      required: "You must provide a contact name"
+
+  DunsNumberForm
+    field:  DUNS number
+      required: "You must enter a DUNS number with 9 digits."
+      valid:    "You must enter a DUNS number with 9 digits."
+
+  CompaniesHouseNumberForm
+    field:  Companies house number
+      length: "Companies House numbers must have 8 characters."
+
+  CompanyNameForm
+    field: Company name
+      required: "You must provide a company name."
+      length:   "You must provide a company name under 256 characters."
+
+  CompanyContactDetailsForm
+    field:  Contact name
+      required: "You must provide a contact name."
+      length:   "You must provide a contact name under 256 characters."
+    field: Email address
+      required: "You must provide a email address."
+      valid:    "You must provide a valid email address."
+    field: Phone number
+      required: "You must provide a phone number."
+      length:   "You must provide a phone number under 20 characters."
+
+  EmailAddressForm
+    field:  Email address
+      required: "You must provide a email address."
+      valid:    "You must provide a valid email address."

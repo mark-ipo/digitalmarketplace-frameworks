@@ -1,0 +1,33 @@
+Auth Forms
+##########
+
+  LoginForm
+    field:  Email address
+      required: "You must provide an email address"
+      valid:    "You must provide a valid email address"
+    field: Password
+      required: "You must provide your password"
+
+  EmailAddressForm
+    field: Email address
+      required: "You must provide an email address"
+      valid:    "You must provide a valid email address"
+
+  ChangePasswordForm
+    field: Password
+      required: "You must enter a new password"
+      length:   "Passwords must be between 10 and 50 characters"
+    field: Confirm password
+      required: "Please confirm your new password"
+      equal:    "The passwords you entered do not match"
+
+  CreateUserForm
+    field: Your name
+      required: "You must enter a name"
+      length:   "Names must be between 1 and 255 characters"
+    field: Phone number
+      valid:    "Phone numbers must be at least 9 characters long. "
+                "They can only include digits, spaces, plus and minus signs, and brackets."
+    field: Password
+      required: "You must enter a password"
+      length:   "Passwords must be between 10 and 50 characters"
