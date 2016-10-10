@@ -1,0 +1,7 @@
+name: Please answer
+question: PLEASE ANSWER PLEASE PLEASE PLEASE
+dynamic_field: 'brief.essentialRequirements'
+type: dynamic_list
+questions:
+  - yesno
+  - evidence
