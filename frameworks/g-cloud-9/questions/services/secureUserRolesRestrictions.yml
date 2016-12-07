@@ -1,5 +1,4 @@
-question: 'Describe your datacentre security.'
-hint: Include details of cetrification and standards.
+question: 'Describe role based access restrictions to management interfaces and support channels.'
 depends:
   -
     "on": lot
@@ -12,7 +11,8 @@ depends:
       - iaas
       - SCS
       - scs
-type: textarea
+type: textbox_large
+hint: '50-word limit'
 max_length_in_words: 50
 validations:
   -
@@ -24,4 +24,3 @@ validations:
   -
     name: under_character_limit
     message: 'Your description must be no more than 500 characters.'
-type: textbox_large
