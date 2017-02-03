@@ -17,8 +17,11 @@
   name: Service scope
   editable: true
   questions:
+    - serviceAddOn
+    - cloudDeploymentModel
     - serviceConstraints
     - buyerResponsibilities
+    - systemRequirements
 -
   name: Reselling
   editable: true
@@ -45,6 +48,7 @@
   name: How users work with your service
   editable: true
   questions:
+    - supportedBrowsers
     - webInterface
     - webInterfaceAccessibilityStandards
     - API
@@ -53,6 +57,7 @@
     - commandLineInterface
     - commandLineOS
     - usingTheCommandLineInterface
+    - customise
 
 -
   name: Analytics
